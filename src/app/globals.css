@@ -2,18 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 @layer base {
   :root {
@@ -45,6 +43,5 @@ body {
   .hideScrollBar::-webkit-scrollbar {
     display: none;
   }
-/* Tambahkan ini di global.css atau dalam file styling yang digunakan */
 }
 

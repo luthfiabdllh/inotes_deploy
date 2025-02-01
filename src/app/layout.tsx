@@ -29,9 +29,10 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{ backgroundColor: "white" }}
       >
         <SessionProvider >
-          {/* Jika halaman bukan login/register, tampilkan Sidebar */}
+
           {!noNavbarRoutes.includes(pathname) ? (
             <SidebarProvider>
               <AppSidebar />
