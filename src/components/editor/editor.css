@@ -1,0 +1,21 @@
+.ce-header {
+font-weight: bold;
+margin-bottom: 10px;
+transition: all 0.3s ease-in-out;
+}
+
+.ce-block h1 { font-size: 2.5rem; }
+.ce-block h2 { font-size: 2rem; }
+.ce-block h3 { font-size: 1.75rem; }
+.ce-block h4 { font-size: 1.5rem; }
+.ce-block h5 { font-size: 1.25rem; }
+.ce-block h6 { font-size: 1rem; }
+
+@media (max-width: 768px) {
+    .ce-block h1 { font-size: 2rem; }
+    .ce-block h2 { font-size: 1.75rem; }
+    .ce-block h3 { font-size: 1.5rem; }
+    .ce-block h4 { font-size: 1.25rem; }
+    .ce-block h5 { font-size: 1rem; }
+    .ce-block h6 { font-size: 0.875rem; }
+}
