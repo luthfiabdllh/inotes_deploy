@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useCallback, useMemo, use } from "react";
-import { AppSidebar } from "@/components/app-sidebar";
 import { HeaderDashboard } from "@/components/header-dashboard";
 import { Skeleton } from "@/components/ui/skeleton";
 import { SidebarInset } from "@/components/ui/sidebar";

@@ -2,9 +2,7 @@
 
 import Editor from "@/components/editor/editor";
 import { HeaderNote } from "@/components/header-note";
-import { Separator } from "@/components/ui/separator";
 import { SidebarInset } from "@/components/ui/sidebar";
-import { Skeleton } from "@/components/ui/skeleton";
 import { fetchNoteDetail } from "@/services/note";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
