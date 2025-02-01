@@ -1,8 +1,6 @@
 "use client";
 
 import { LoginForm } from "@/components/login-form"
-import { Button } from "@/components/ui/button"
-import { signIn } from "next-auth/react"
 
 export default function Login() {
   return (
