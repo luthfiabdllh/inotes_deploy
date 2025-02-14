@@ -22,7 +22,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const pathname = usePathname(); // Gunakan usePathname untuk Next.js 13+
+  const pathname = usePathname(); 
   const noNavbarRoutes = ["/login", "/register"];
 
   return (
